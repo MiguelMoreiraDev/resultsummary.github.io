@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-family: "Poppins", sans-serif;
+      font-size: 0.875rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: #8844ee;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="left_side">
+      <span class="left_side_result">Your Result</span>
+      <span class="left_side_number">76</span>
+      <span class="left_side_number2">of 100</span>
+      <h2 class="left_side_title">Great</h2>
+      <p class="left_side_ph"> You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="right_side">
+      <h1 class="right_side_title">Summary</h1>
+      <div class="list">
+        <div class="list_item reaction_bg">
+          <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
+          <h3 class="reaction">Reaction</h3>
+          <span><span class="dec">80</span> / 100</span>
+        </div>
+        <div class="list_item memory_bg">
+          <img src="./assets/images/icon-memory.svg" alt="Memory Icon">
+          <h3 class="memory">Memory</h3>
+          <span><span class="dec">92</span> / 100</span>
+        </div>
+        <div class="list_item verbal_bg">
+          <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
+          <h3 class="verbal">Verbal</h3>
+          <span><span class="dec">61</span> / 100</span>
+        </div>
+        <div class="list_item visual_bg">
+          <img src="./assets/images/icon-visual.svg" alt="Visual Icon">
+          <h3 class="visual">Visual</h3>
+          <span><span class="dec">72</span> / 100</span>
+        </div>
+      </div>
+      <a class="button" href="#">Continue</a>
+    </section>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.instagram.com/miguelrkt__/">Miguel Henrique Moreira</a>.
+  </div>
+</body>
+
+</html>
